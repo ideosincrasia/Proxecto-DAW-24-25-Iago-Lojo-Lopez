@@ -26,10 +26,12 @@ Dada la planificación de un marketplace, donde imprentas puedan anunciar sus pr
 
 La idea abre a muchos caminos financieros, ya no solo desde la comisión a empresas por ofrecer y vender sus productos en nuestra web, además de tramitar sus pedidos directamente, facilitandoles la tarea. Tambien contamos con comunidades que aunque en menor medida puedan ayudar a crecer a la plataforma, ayudando no solo de forma económica si no tambien en forma de atención y visibilidad.
 
-**¿SABES LO QUE QUIERE DECIR DE FORMA BREVE? CREO QUE NO. LO QUE HE LEIDO HASTA AHORA NO ME DICE NADA DE NADA, ES UN ROLLO INCOMPRENSIBLE.**
-**ESTO ABAJO Y SIN CONTARME TUS PELÍCULAS. AQUÍ SOLO UN RESUMEN GENERAL. EJ. Emplearase html5, CSS3 con SASS y JavaScript para o frontend e PHP e MySQL para o backend.**
-**Jquery está super desfasado, a pesar de que hay empresas que lo usan. Yo miraria este artículo https://alternatodo.com/alternativa-a-jquery/ o este https://blog.back4app.com/jquery-alternatives/**
+**¿SABES LO QUE QUIERE DECIR DE FORMA BREVE? CREO QUE NO. LO QUE HE LEÍDO HASTA AHORA NO ME DICE NADA DE NADA, ES UN ROLLO INCOMPRENSIBLE.**
+**ESTO ABAJO Y SIN CONTARME TUS PELÍCULAS. AQUÍ SOLO UN RESUMEN GENERAL. EJ. Se empleará html5, CSS3 con SASS y JavaScript para o frontend e PHP e MySQL para o backend.**
+**Jquery está superdesfasado, a pesar de que hay empresas que lo usan. Yo miraría este artículo https://alternatodo.com/alternativa-a-jquery/ o este https://blog.back4app.com/jquery-alternatives/**
+
 Además para realizar la tarea usaremos tecnologías comunes como HTML5 ,CSS3, seguramente con apoyo de SaSS para su desarroyo frontal y diseño externo. La parte intera usara un servior node usando expresiones jquery dinámicas para construir la estructura del sistema interno de la página, debido al funcionamiento como mercado de la misma deberemos incluir tambien una implementación con una api que lleve los pedidos, para ellos usaremos una Api de ecomerce, cambiada para llevar los productos con mayor facilidad usando python o C. Por último cabe destacar la existencia de una base de datos que lleva la informacion de los usuarios y las empresas y productos escrita en Mysql. Debido a la estructura como comunidad de la página tambien nos gustaría usar WebRTC para crear un chat en tiempo real (inicialmente de texto) para los usuarios y comunidades de nuestra página.
+
 
 Como finalización, nos gustaría tambien preparar la página para aceptar un VTT con el que poder llevar partidas de rol, aunque ese ya sería un proyecto a futuro para nuestra página.
 
