@@ -7,4 +7,8 @@
 
 ## 2- Tarefas
 
+1. Creacion de Canvas, info guardada.
+
+
+
 [**<-Anterior**](../../README.md)
