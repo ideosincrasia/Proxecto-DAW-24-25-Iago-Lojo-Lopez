@@ -272,4 +272,4 @@ Además de la posibilidad de no necesitar un préstamo bancario en caso de recib
 
 [Acceso al diagrama de Grantt del proyecto (Exceel)](utils/Diagrama%20de%20Gantt.xlsx)
 
-[**<-Anterior**](../../README.md)
+[**<-Anterior**](../README.md)
