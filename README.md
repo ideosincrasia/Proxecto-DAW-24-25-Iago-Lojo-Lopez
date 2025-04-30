@@ -44,8 +44,8 @@
 > *EXPLICACIÓN*: Simplemente indexa ordenadamente todo o tey proxecto.
 
 1. [Anteproyecto](./doc/1_Anteproyecto.md)
-2. [Análise](./doc/2_Analisis.md)
-3. [Deseño](./doc/3_Diseño.md)
+2. [Análise](./doc/2_Analise.md)
+3. [Deseño](./doc/3_Deseño.md)
 4. [Codificación e probas](doc/templates/4_Codificacion_e_probas.md)
 5. [Implantación](doc/templates/5_Implantación.md)
 6. [Referencias](doc/templates/6_Referencias.md)
