@@ -150,14 +150,15 @@ Calculamos los costes totales para nuestra empresa, todos los datos son aproxima
 - Costes iniciales:
   - Constitución de la S.L (Notaría y registro): ~450€
   - Capital Social inicial: 3000€
+  - Local y equipo de trabajo (mobiliario): 2000€
   - Branding y imagen corporativa: ~500€
 
-  - **Total:** ~3950 €
+  - **Total:** ~5950 €
 
 - Costes Fijos Mensuales:
   - Asesoría fiscal (Contabilidad externa): ~100€
   - Seguridad Social del administrador(Y único trabajador, segun cuota base): ~350€
-  - Salario de trabajador y administrador (Pendiente de revisión segun ventas): ~1400€
+  - Salario de trabajador y administrador (Pendiente de revisión segun ventas): ~1600€
   - Hosting + Servidores (Puede aumentar con el trafico): ~120€
   - Herramientas y equipos digitales(email, SaaS): ~200€
   - Dominio y SSL (Prorrateado mensualmente): 15€
@@ -175,17 +176,19 @@ Calculamos los costes totales para nuestra empresa, todos los datos son aproxima
   - **Total Esperado:** ~ 650 € / 1700€
 
 - Impuestos estimados:
-  - Impuesto de sociedades: 25% sobre los beneficios Netos (15% durante los 2 primeros años con beneficios)
-  - IVA: 4% (Libro Digital)
+  - Impuesto de sociedades: 23% sobre los beneficios Netos (15% durante los 2 primeros años con beneficios)
   - IRPF: Segun nóminas y retenciones se estima entre un 7% y un 15%
 
-Ante estos costes y teniendo en cuenta un gasto de 6 meses para el desarroyo completo de la web, con un único trabajdor. Antes de la salida a mercado. La empreas adquiriría un  total de 18.595€ de deuda total durante este tiempo.
+Ante estos costes y teniendo en cuenta un gasto de 6 meses para el desarroyo completo de la web, con un único trabajdor. Antes de la salida a mercado. La empreas adquiriría un  total de 20.595€ de deuda total durante este tiempo.
+
+- Impuestos a nuestros clientes a tener en cuenta:
+  - IVA: 4% (Libro Digital)
 
 #### 2.7.2- Ingresos
 
-Para los ingresos de la misma empresa usariamos varias fuentes de ingresos:
+Para los ingresos de la misma empresa usariamos varias fuentes de Financiación:
 
-- Los 3.000€ del capital social, serán desenvolsados por el empresario principal.
+- Los 3.000€ del capital social, serán desenvolsados por el empresario principal. Que son netos.
 
 - El resto de fondos vendrán de un prestamo bancario:
   - Importe del préstamo: 22.000€
