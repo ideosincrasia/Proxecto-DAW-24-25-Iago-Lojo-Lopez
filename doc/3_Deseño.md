@@ -37,4 +37,4 @@
 
 [Diseño en Figma, aun pendiente de desarroyo, ciertas partes del programa, mientras desde el equipo leemos la documentacion de Ink.js](https://www.figma.com/design/hycIRuFIyNZrk2KMTfJNzu/Untitled?node-id=0-1&p=f&t=AbEN9U05hYwveHru-0)
 
-[**<-Anterior**](../../README.md)
+[**<-Anterior**](../README.md)
