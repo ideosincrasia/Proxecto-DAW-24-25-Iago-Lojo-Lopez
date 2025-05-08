@@ -83,44 +83,48 @@ En este caso el usuario necesitará acceso a un equipo informático (pc o movil)
 En este caso tendremos varias leyes a tener en cuenta durante el desarroyo:
 
 - Reglamento general de protección de Datos (RGPD/GDPR):
-    - Afecta a toda Europa en al ambito de recogida de datos y uso de los mismos.
 
-| Exigencia                    | Aplicación                                                                                                                                   |
-|------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| Consentimiento Expreso       | Debemos informar y obtener permiso antes de recoger datos personales (Registros, cookies, preferencias)                                      |
-| Derechos del usuario         | El usuario debe poder ver, modificar o eliminar sus datos personales en todo momento.                                                        |
-| Politica de privacidad clara | Debe estar visible en todas las partes de la web y explicar como se usaran los datos.                                                        |
-| Contrato con terceros        | En nuestro caso al usar Stripe, o incluso si queremos implementa google analitics, necesitamos contratos que regulen el tratamiento de datos |
+Esta ley nos exige la correcta gestión de datos personales de forma segura y legal, además de pedir consentimiento explícito antes de recoger o usar los datos.
+Además nos exige informar al usuario de qué datos recogemos y para que los usamos o con quien los vamos a compartir.
+En caso de que el usuario quiera tambien debe seer capaz de acceder, corregir o eliminar sus datos guardados fácilmente y sin complicaciones.
+
+Para cumplir con estos requisitos debemos mostrar un aviso de Política de privacidad en la web, accesible siempre, por ejemeplo en el pie de la página o al final de un menú.
+Además tambien debemos pedir consentimiento explícito antes de recoger información dentro de formularios o otros métodos. Además esta información adquirida tiene que ser tratada de forma segura, por lo que debería cifrarse la informacion dentro de la base de datos.
+Por último, tendremos que nombrar un responsable de tratamiento de datos, en este caso sería la propia empresa. Esto se indica en la política de privacidad.
 
 - Ley de servicios de la sociedad de la Información y del Comercio electrónico (LSSI-CE)
     - Vigente en la zona española sobre sitios web con actividad económica y publicitaria
 
-| Exigencias                | Aplicación                                                                                                                 |
-|---------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| Informacion legal visible | Aviso legal, política de cookies y privacidad siempre visibles.                                                            |
-| Consentimiento de cookies | Explicas que cookies y donde se usan para obtener consentimiento del usuario                                               |
-| Comunicación comercial    | Los email promocionales y notificaciones de anuncios y promociones, deben identificarse como tal y permitir darse de baja. |
-| Identificación titular    | La web debe mostrar quien es el responsable de forma clara y concisa (Nombre, CIF, direción, contacto)                     |
+En este caso, para evitar estafas y otros problemas de internet, se nos obliga a identificarnos claramente, con CIF, domicilio, email... etc
+Además se nos obliga a dejar claro los servicios quie ofrecemos y las condiciones de estos servicios o productos.
+Además y unido a otras leyes, tambien tenemos que pedir consentimiento aprar el uso de cookies que no sean necesarias de forma estricta, entre estas cookies se encuentran por ejemplo las de publicidad o analíticas.
+
+Para cumplir esta legislación debemos dejar visibles los datos de la empresa, ya sean indicandolos en algun sitio o añadiendolos dentro del aviso legal, y evidentemente dejar estos visibles en todo momento. 
+Para el trato de Cookies, se añadirá un Modal o un banner pidieron de forma sencilla y clara consentimiento del usuario para el uso de cookies. Además en este apartado se añadirá diferentes campos para las cookies y así que el usuario pueda aceptar, rechazar o configurar las cookies que desea.
 
 - Ley General para la Defensa de los Consumidores y Usuarios
-    - Vigente es españa afecta a la venta de producto digitales.
 
-| Exigencias                      | Aplicación                                                                                                           |
-|---------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| Información previa en la compra | Debe indicarse precio, impuestos, características y condiciones antes del pago.                                      |
-| Política de devolución clara    | Aunque los ebooks no tengan derecho de desistimiento (Devolución) esto debe indicarse claramente y de forma expresa. |
-| Facturación                     | Debemos tener una parte donde los usuario y autores puedan ver sus facturas o comprobantes de compra válidos.        |
-|                                 |                                                                                                                      |
+Este caso, la ley es parecida a la del comercio electrónico pero mas general, protegiendo más a los compradores y consumidores.
+
+La ley nos exige que nuestros productos y servicios tengan información clara y completa sobre los productos antes de realizar su compra. Además debemos respetar el derecho de desistimiento, informando a los usuarios de su existencia. Añadido a esta última parte tendremos que informar en caso de que este derecho se pierda, y pedir confirmacion a los usuarios. Por último tiene que añadirse un canal de atención al cliente donde los clientes puedan resolver sus dudas y pedir ayuda.
+
+Para cumplir la ley, en este caso tendremos que mostrar toda la informacion de los libros y contenido que se vá consumir. Añadido a esta información que aparece en la ficha de cada libro, tambien deberemos incluir más adelante en el proceso de venta, unas politicas de compra, envio (en caso de que algún momento se trabaje en físico) o descarga.
+Unido a los productos tambien se añadiremos una verificación sobre el derecho de desistimiento, haciendo que el usuario sea consciente de la perdida de este derecho una vez descarga el contenido.
+
 
 - Ley de Propiedad Intelectual
-    - Vigente en España, y afecta a los libros y contenido subido por los autores a nuestra web.
 
-| Exigencias                  | Aplicación                                                                                                          |
-|-----------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Derechos de autor           | Debemos asegurarnos de que el autor mantiene los derechos sobre el contenido que sube.                              |
-| Licencias de uso            | Podemos incluir contenido con licencias abiertas (Creative Commons, por ejemplo) pero deben indicarse claramente.   |
-| Protección contra el plagio | Debemos vigilar y establecer un protocolo para actuar ante el contenido plagiado o reclamado dentro de nuestra web. |
+En este caso tendremos en cuenta tambien la Ley de Propiedad Intelectual, en este caso, está ley protegete los derechos de autor sobre las obras de los artistas.
 
+Para cumplir está ley, tendremos que firma contratos de venta con los autores de los cuales publiquemos libros, además debemos respetar los derechos de los autores sobre sus libros y sus creaciones. Esta parte irá incluida en los contratos con ellos. Además tembien tendremos en los productos un enlace a más contenido del autor, informando así claramente quien es el creador de la obra.
+
+En este caso darémos los autores un contrato de Adhesión, y cuando el autor quiera vender en nuestra plataforma, tendra que aceptar un contrato donde, se declara que es el titular de los derechos de autor, y donde se nos dá autorización expresa para vender su libro.
+Además sobre el contenido del blog y del resto de la página pondremos un formulario de reporte a manos de los usuarios, para que en caso de que se visualize contenido no autorizado estes puedan comunicarlo.
+Por último en la ficha de cada libro añadiremos un aviso conforme los derechos estan reservados al autor y por tanto se prohibe la reproducción sin permiso de sus autores.
+
+En este caso la responsabilidad cae sobre nosotros siempre y cuando no hagamos cumplir las leyes en nuestra página, permitiendo contenido pirateado o similares. Tambien hay que mencionar que en el caso de que el contenido sea subido por usuarios, la responsabilidad cae sobre ellos, mientras nosotros condenemos y baneemos este contenido en la mayor medida posible dentro de nuestras capacidades.
+
+- Otras consideraciones
 Aparte de la LSSI-CE vigente en españa tambien podríamos tener en cuenta la Directiva de comercio electronico UE vigente por toda la unión europea y regula la venta digital.
 
 Además tendremo que diseñar la web en consideración de la Normativa de accesibilidad web (WCAG .2.1) para poder acceder a las ayudas publicas para contenido cultural.
