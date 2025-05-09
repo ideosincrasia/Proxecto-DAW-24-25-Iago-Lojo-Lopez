@@ -17,8 +17,8 @@
 | Caso                                | Actor          | Descripción                                                                                                            |
 |-------------------------------------|----------------|------------------------------------------------------------------------------------------------------------------------|
 | Registrarse                         | Usu Anónimo    | Un usuario quiere crear una cuenta, aportando los dados necesarios                                                     |
-| Iniciar Sesion                      | Usu Anónimo    | Un usuario quiere acceder a su cuenta con sus credenciales                                                             |
 | Navegar por el catálogo             | Usu (Todos)    | Un usuario explora el catálogo de libros disponibles en el market place.                                               |
+| Iniciar Sesion                      | Usu Registrado | Un usuario quiere acceder a su cuenta con sus credenciales                                                             |
 | Leer y interactura con la narrativa | Usu Registrado | Un usuario inicia la narrativa y interactua con ella, recopilando datos para posteriores sugerencias                   |
 | Añadir Libros al Carrito            | Usu Registrado | Un usuario seleccioná y añade libros a su carrito para su compra.                                                      |
 | Comprar libros                      | Usu Registrado | Un usuario realizá el pago de los libros en su carrito, además de visualizar el contenido de este.                     |
