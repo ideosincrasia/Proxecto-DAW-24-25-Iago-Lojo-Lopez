@@ -42,14 +42,14 @@ En nuestro proyecto buscamos destacar del resto a partir de nuestra inovadora UI
 La utilidad dada se divide en dos apartados:
 
 - Para los lectores:
- - Descubrir historias de forma divertida.
- - Añadimos una experiencia de lectura incluso antes de proceder a la compra del libro.
- - Participan dentro de un univerlo narrativo.
+  - Descubrir historias de forma divertida.
+  - Añadimos una experiencia de lectura incluso antes de proceder a la compra del libro.
+  - Participan dentro de un univerlo narrativo.
 
 - Para los escritores:
- - Obtienen visivilidad en un mercado saturado.
- - Pueden realizar sus ventas directamente en la web.
- - Se conectan con una comunidad que valora el contenido original.
+  - Obtienen visivilidad en un mercado saturado.
+  - Pueden realizar sus ventas directamente en la web.
+  - Se conectan con una comunidad que valora el contenido original.
 
 ### 2.2- Xustificación da idea
 
@@ -64,6 +64,7 @@ Desde un punto de vista económico, el mercado digital de libros aumentó en 202
 Si miramos otras empresas del mercado, podremos observar que existen alternativas en el mercado, alternativas muy grandes, estas empresas mencionadas anteriormente en cambio no ofrecen una experiencia personalizada para los lectores y tampoco ofrece un soporte para los autores independientes para que creen y vendan contenido.
 
 Fuentes:
+
 - [Diario sigo XXI: El mercado del libro digital crece un 5% en España, hasta los 79 millones de euros](https://www.diariosigloxxi.com/texto-ep/mostrar/20230309141317/mercado-libro-digital-crece-5-espana-hasta-79-millones-euros-segun-informe)
 
 - [HUff Post: Los lectores superan por primera vez en España el 65 % de la población](https://www.huffingtonpost.es/life/cultura/los-lectores-superan-primera-vez-espana-65-poblacion.html)
@@ -73,28 +74,30 @@ Fuentes:
 - [HUff Post: Los lectores superan por primera vez en España el 65 % de la población](https://www.huffingtonpost.es/life/cultura/los-lectores-superan-primera-vez-espana-65-poblacion.html)
 
 Por último hablaremos de nuestra empresa en un analisis DAFO:
-  - [Analisis DAFO de Creatybook](/doc/img/Analisis%20DAFO_creatybook.png)
+
+- [Analisis DAFO de Creatybook](/doc/img/Analisis%20DAFO_creatybook.png)
 
 ### 2.3- Segmento de clientes
 
 Analizaremos a los diferentes clientes que podemos encontrarnos en nuestra idea:
 
--  *Los lectores digitales:* Habituados a consumir contenido digital, leen libros en su Kindle, móvil o table, usando apps como WAttpad. Son importantes de menciona las recomandaciones de Tiktok (Para un publico mayormente joven) o Goodreads.
+- *Los lectores digitales:* Habituados a consumir contenido digital, leen libros en su Kindle, móvil o table, usando apps como WAttpad. Son importantes de menciona las recomandaciones de Tiktok (Para un publico mayormente joven) o Goodreads.
 
 - *Afficionados de rol y de la narrativa interactiva:* Son personas que consumen un contenido interactivo (Juegos de rol, novelas visuales o juegos narrativos), les gusta el mundo geek, la construccion de mundo, mecánicas RPG... Son activos en la comunidad dentro de la red buscando vivir historias de forma participativa y emocional, conectando con autores que comparten su visión.
 
 - *Autores Independientes:* EScritores emergentes que publican por su cuenta o buscan cambiar el circuito de ediciones tradicionales, les interesa una comunidad donde mostrarse, ganar visibilidad, comunidades de apoyo y recursos editoriales accesibles. Suelen usar redes sociales generando una comunidad, la cual puede aportarnos más usuarios
 
-
 - *Creadores de contenido literario:* Separados de los escritores, tenemos a los creadores de contenido como Bookstubers, reseñistas, podscasters literarios... les interesan los nuevos libros innovadores, las nuevas plataformas donde crear. Tienen alta influencia en la audiencia más joven, generan comunidades con facilidad.
 
 Cada uno de nuestros clientes tienen necesidades diferentes, a las cuales intentamos llenar para llamar a nuestro lado:
+
 - *Los lectores:* Buscan nuevas formas de leer, descubrir facilmente libros y experiencias originales.
 - *Los jugadores narrativos*: Buscan la inmersión, la interación y conexción emocional con la narrativa.
 - *Autores*: Buscan la Visibilidad, facilidad de uso, escapar de las comisiones abusivas de las editoriales tradicionales y el feedback.
 - *Creadores de contenido:* Novedad, exclusivodad, material estético y facilmente distribuible.
 
 Entre todos ellos las motivaciones son:
+
 - Explorar historias y mundos únicos.
 - Apoyar a los autores emergentes.
 - Sentirse parte de un mundo conexcionado.
@@ -102,6 +105,7 @@ Entre todos ellos las motivaciones son:
 - Crear comunidad.
 
 Tambien analizamos las motivaciones de nuestro segmento:
+
 - Saturacion de libros, sin filtro.
 - Dificultad para descubrir talento nuevo.
 - Plataformas frías y sin personalidad.
@@ -111,6 +115,7 @@ Tambien analizamos las motivaciones de nuestro segmento:
 ### 2.4- Competencia
 
 En el ambito de competencia podemos ver grandes empresas ya posicionadas en el mercado, ahora analizaremos un poco algunas de estas empresas:
+
 - *Amazon Kindle Direct Publishing:* Es la plataforma lñider de autopublicacion y venta de ebooks, tiene un alcanze global, integracion completa con Amazon y herramientas de autopublicación para sus clientes. La mayor limitación de la empresa es la experiencia del usuario estandar, sin elementos interactivos ni personalizados.
 
 - *Wattpad:* Esta en otra parte del espectro de la competencia, se dedica a la lectura y escritura de historias, sus puntos principales se basan en ofrecer interación entre autores y lectores. Quizás su mayor debilidad, es su propia comunidad, más centrada en un publico juvenil con un enfoque mas en romance juvenil y fanfiction.
@@ -120,6 +125,7 @@ En el ambito de competencia podemos ver grandes empresas ya posicionadas en el m
 En general podemos decir que aunque las empresas de los libros digitales ya estan bastante extendidas. Por eso buscamos el hueco que dejan estas empresas dentro del los autores independientes combinandolo con un contenido personalizado y interactivo.
 
 En cuanto productos substitutivos, tambien buscamos analizar sus fortalizas y debilidades, analizando como podemos ofrecer un servicio mejor:
+
 - *Novelas visuales y juegos narrativos:* Estas plataformas digitales muestran una narrativa interactiva con decisiones en el mundo por parte de los usuarios. Los fortalezas acaban siendo sus debilidades al ofrecer una experiencia más centrada en el entretenimiento que en la literatura o la misma narrativa.
 
 - *Plataformas de Streaming de contenido literario:* Como ya se dijo antes aplicaciones como bookmate, ofrece un producto que subtitulle la compra de los ebooks, por un producto menos duradero pero mas conveniente. Estos sistemas pocas veces integran contenido de escritores independientes, y no ofrecen apoyo a estos.
@@ -129,6 +135,7 @@ En cuanto productos substitutivos, tambien buscamos analizar sus fortalizas y de
 Nuestro objectivo es por tanto crear una plataforma digital única donde lectores puedas descubrir libros de lectores independientes a travas de una experiencia interactiva del tipo **"Elije tu popia aventura"**, permitiendoles apoyar a autores emergentes y acceder a contenido literario adaptado a sus intereses narrativos.
 
 Para ello nos centramos en unos componentes claves para nuestra propuesta:
+
 - Experiencia inmersiva: Que la navegación por la web sea interactiva y conecxa, donde cada decisión lleve al lector por el contenido recomendado.
 - Soporte para los nuevos autores: Ofrecemos visibilidad, herramientas de autopublicación senciallas y una plataforma cercana y personal.
 - Recomendaciones personalizadas: Los libros se sugieren en base a las decisiones tomadas en la web por los usuarios de la misma, dandoles una conexión emocional con su lectura.
@@ -221,8 +228,6 @@ Una vez empecemos la actividad, considerando un crecimiento sostenido mensual de
 | 23  | 900            | 3.700 €             | 1.700 €                                  | 5.400 €       |
 | 24  | 1.000          | 4.000 €             | 1.900 €                                  | 5.900 €       |
 
-
-
 ### 2.8- Viabilidade
 
 #### 2.8.1- Viabilidade técnica
@@ -238,16 +243,18 @@ Un aspecto a tener en cuenta unido a la seguridad es la existencia de la necesid
 Por último tenemos la parte de desarroyo de la narrativa interactiva, en este apartado tendremos que empezar con una estructura más sencilla estilo "elige tu camino" y irla expandiendo con ayuda de autores y creadores para hacer una narrativa más compleja.
 
 En general:
- - Existe la tecnología para crear la página.
- - Hay proveedores accesibles
- - Se puede escalar por fases.
- - Aunque necesita planificacion de la arquitectura desde un comienzo.
+
+- Existe la tecnología para crear la página.
+- Hay proveedores accesibles
+- Se puede escalar por fases.
+- Aunque necesita planificacion de la arquitectura desde un comienzo.
 
 Por lo que podemos concluir que técnicamente el proyecto es altamente viable.
 
 #### 2.8.2 - Viabilidade económica
 
 Usando los valores de costes y beneficios dados anteriormente.
+
 - Los ingresos esperados del primer año llegan para cubrir los costes operativos de la aplicación pero esta no llega al punto de equilibro.
 - Se calcula que a los 16 meses, la empresa entrará en el punto de equilibrio, empezando una recuperación a partir de ese punto.
 - Al final del segundo año de actividad se espera alcanzar una rentabilidad anual.
@@ -263,7 +270,7 @@ Además de la posibilidad de no necesitar un préstamo bancario en caso de recib
 
 ## 3- Requirimentos técnicos
 
-- **Infraestructura:** Pensabamos pedir desde nuestra empresa un nombre de dominio web acorde con nuestra actividad, además tambien barajamos la adquisición de una equipo servidor que nos sirva como puente para nuestra programacion a nivel servidor. Este equipo consta de memoria SSD 500GB, 16 Gb RAM DDR.4 y procesador AMD Ryzen™ 7 5825U.
+- **Infraestructura:** Pensabamos pedir desde nuestra empresa un nombre de dominio web acorde con nuestra actividad, además tambien barajamos la adquisición de un servicio de hosting, 
 
 - **Backend:** Usaremos Node.js para el back-end de la aplicación, unido a este usaremos tambien MongoBD para la base de datos, usando el formato Json. Probablemente inplementemos Stripe para el pago de los clientes.
 
