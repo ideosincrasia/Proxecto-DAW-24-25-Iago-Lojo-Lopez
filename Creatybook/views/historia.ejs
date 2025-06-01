@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title><%= titulo %></title>
+
+  <!-- Reset y estilos generales -->
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/styles.css">
+
+  <!-- Font Awesome para iconos -->
+  <link 
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    crossorigin="anonymous"
+  />
+</head>
+<body>
+  <%- include('partials/header') %>
+
+  <main class="container">
+    <h2 class="section-title">
+      <i class="fa-solid fa-scroll"></i> Tu Aventura
+    </h2>
+
+    <!-- Contenedor donde se inyectará el texto de Ink -->
+    <div id="story-container"></div>
+
+    <!-- Contenedor donde se inyectarán los botones de elección -->
+    <div id="choices-container"></div>
+  </main>
+
+  <%- include('partials/footer') %>
+
+  <!-- Incluir Ink.js desde CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/inkjs@1.11.0/dist/ink.min.js"></script>
+    <script>
+    // Pasar el progreso guardado a JavaScript
+    const savedState = '<%- JSON.parse(session.historia) %>' || '';
+    console.log('Estado guardado:', savedState);
+    </script>
+    <script defer src="/js/storyRunner.js"></script>
+</body>
+</html>

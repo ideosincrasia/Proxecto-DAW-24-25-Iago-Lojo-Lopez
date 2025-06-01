@@ -1,2 +1,75 @@
-<h1>Bienvenido a Creatybook</h1>
-<p>Explora y crea tu propia historia</p>
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Inicio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script defer src="/js/index.js"></script>
+  </head>
+  <body>
+    <!-- Llamar a el header -->
+    <%- include('partials/header') %>
+
+    <!-- CONTENIDO PRINCIPAL EN CONTAINER -->
+    <div class="container">
+      <main>
+        <!-- Sección “Semana del Libro” -->
+        <section class="promo">
+          <h2 class="section-title">
+            <i class="fa-solid fa-book-open"></i> Semana del Libro en Valencia
+          </h2>
+          <div class="promo-image">
+            <img src="/img/img_feria.jpg" alt="Feria del libro en Valencia" />
+          </div>
+          <p>
+            La Feria del Libro de Valencia 2025, en su 60.ª edición, se celebra
+            del 24 de abril al 4 de mayo en los emblemáticos Jardines del Real
+            (Viveros). Este evento, organizado por el Gremi de Llibrers de
+            València y la Fundació Fira del Llibre, se ha consolidado como la
+            segunda feria literaria más importante de España, solo superada por
+            la de Madrid ...
+          </p>
+          <a href="/blog/feria-valencia">Leer más →</a>
+        </section>
+
+        <!-- Sección “Nuevos Artículos” -->
+        <section class="carousel">
+          <h2 class="section-title">
+            <i class="fa-solid fa-star"></i> Libros Destacados
+          </h2>
+
+          <div class="carousel-track-container">
+            <button class="carousel-button prev">
+              <i class="fa-solid fa-feather"></i>
+            </button>
+            <ul class="carousel-track">
+              <li class="carousel-slide">
+                <img src="/img/boltgun.png" alt="BoltGun" />
+              </li>
+              <li class="carousel-slide">
+                <img src="/img/boltgun.png" alt="Otro libro" />
+              </li>
+              <li class="carousel-slide">
+                <img src="/img/boltgun.png" alt="Tercer libro" />
+              </li>
+            </ul>
+            <button class="carousel-button next">
+              <i class="fa-solid fa-feather"></i>
+            </button>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <!-- Menu Estandarte -->
+    <%- include('partials/estandarte') %>
+    <!-- Llamar a el footer -->
+    <%- include('partials/footer') %>
+  </body>
+</html>

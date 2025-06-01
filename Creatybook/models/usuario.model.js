@@ -8,7 +8,11 @@ const UsuarioSchema = new mongoose.Schema({
   nombre: { type: String, required: true }, // Nombre del usuario
   email: { type: String, required: true, unique: true }, // Email del usuario
   contraseña: { type: String, required: true }, // Contraseña del usuario
-  fechaRegistro: { type: Date, default: Date.now } // Fecha de registro
+  fechaRegistro: { type: Date, default: Date.now }, // Fecha de registro
+  progresoHistoria: {
+    rawState: { type: String, default: '' }, // Aquí guardamos el JSON de Ink
+    fechaÚltimaActualización: { type: Date, default: Date.now }
+  }
 });
 
 // Middleware para cifrar la contraseña antes de guardar el usuario

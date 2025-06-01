@@ -1,7 +1,28 @@
-<header>
-  <h2>CreatyBook</h2>
-  <nav>
-    <a href="/">Inicio</a>
-    <a href="/libros">Libros</a>
+<header class="site-header">
+  <!-- Escritorio: logo y nav -->
+
+  <a href="/" class="logo">
+    <img src="/img/logo.png" alt="CreattyBook" />
+  </a>
+  
+  <nav class="main-nav">
+    <a href="/" class="tab <%= path==='/' ? 'active' : '' %>">Inicio</a>
+    <a href="/shop" class="tab <%= path==='/shop' ? 'active' : '' %>">Tienda</a>
+    <a href="/historias" class="tab <%= path==='/historias'? 'active' : '' %>"
+      >Historias</a
+    >
+    <a href="/blog" class="tab <%= path==='/blog' ? 'active' : '' %>">Blog</a>
   </nav>
+
+  <% if (session && session.usuarioId) { %>
+  <a href="/usuario/panel" class="login-link">
+    <i class="fa-solid fa-user"></i> Mi Cuenta
+  </a>
+  <% } else { %>
+  <a href="javascript:void(0)" onclick="abrirModal('login')" class="login-link">
+    <i class="fa-regular fa-user"></i> Login
+  </a>
+  <% } %>
 </header>
+
+<%- include('modal') %>

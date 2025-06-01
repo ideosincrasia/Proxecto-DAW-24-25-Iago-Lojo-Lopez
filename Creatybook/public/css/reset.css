@@ -1,0 +1,67 @@
+/* ====== RESET CSS ====== */
+
+/* Reinicio de márgenes, rellenos y box-sizing */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Altura completa para html y body */
+html,
+body {
+  height: 100%;
+}
+
+/* Línea base y familia tipográfica */
+body {
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+
+/* Imágenes y medios */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Formularios */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Listas */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Enlaces */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Tablas y celdas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Scrollbar en WebKit */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 4px;
+}

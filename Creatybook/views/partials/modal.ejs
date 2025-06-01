@@ -1,0 +1,69 @@
+<div id="modal-auth" class="modal-overlay hidden">
+  <div class="modal">
+    <button
+      id="modal-close"
+      class="modal-out_btn"
+      aria-label="Cerrar modal"
+      onclick="cerrarModal()"
+    >
+    <i class="fas fa-times"></i>
+    </button>
+
+    <!-- LOGIN -->
+    <div id="auth-login" class="auth-screen">
+      <h2>Iniciar Sesión</h2>
+      <hr class="modal-separator">
+        <!-- Errores aquí -->
+       <div id="login-errors" class="form-errors"></div>
+      <form id="form-login" method="POST" class="modal-form">
+        <label>
+          Email
+          <input type="email" name="email" required />
+        </label>
+        <label>
+          Contraseña
+          <input type="password" name="contraseña" required />
+        </label>
+        <label class="remember">
+          <input type="checkbox" name="remember" />
+          Recuerda mis datos
+        </label>
+        <button type="submit" class="btn">Entrar</button>
+      </form>
+        <span>— o —</span>
+        <button class="btn" onclick="mostrarRegistro()">
+          Crear una cuenta nueva
+        </button>
+    </div>
+
+    <!-- REGISTRO -->
+    <div id="auth-register" class="auth-screen hidden">
+  <button id="modal-return" class="modal-out_btn" onclick="mostrarLogin()"><i class="fas fa-arrow-left"></i></button>
+  <h2>Registrarse</h2>
+  <hr class="modal-separator">
+
+  <!-- Errores aquí -->
+  <div id="register-errors" class="form-errors"></div>
+
+  <form id="form-register" class="modal-form">
+    <label>
+      Nombre de usuario
+      <input type="text" name="nombre" required>
+    </label>
+    <label>
+      Email
+      <input type="email" name="email" required>
+    </label>
+    <label>
+      Contraseña
+      <input type="password" name="contraseña" required>
+    </label>
+    <label>
+      Confirmar contraseña
+      <input type="password" name="confirmar" required>
+    </label>
+    <button type="submit" class="btn">Crear Cuenta</button>
+  </form>
+</div>
+  </div>
+</div>
