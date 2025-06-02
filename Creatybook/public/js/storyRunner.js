@@ -6,11 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
       // Crear la instancia de Ink.js
       const story = new inkjs.Story(storyContent);
 
-      // Recuperar el estado guardado del usuario, si existe
-
-      console.log("a",savedState);
       if (savedState) {
-        story.state.LoadJson(savedState);
+        story.state.LoadJson(savedState.slice(1, -1));
       }
 
 
