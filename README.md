@@ -9,9 +9,12 @@
   - [Licenza](#licenza)
   - [Índice](#índice)
   - [Guía de contribución](#guía-de-contribución)
-  - [Links](#links)
 
 ## Taboleiro do proyecto
+
+La web es accesible desde el siguiente link [Página Web](https://creatybook.up.railway.app)
+
+Además esta subida como programa con el Script y Docker.
 
 ***En Desarrollo***
 
@@ -42,7 +45,6 @@ Para cualquier cosa puedes contactarme en : [iago.lojo.lopez@gmail.com](mailto:i
 Utilizaremos la licencia GNU Free Documentation License Version 1.3, despues de valorar otras como Creative Commons y sus variantes, creemos que esta puede ser la que más le quede bien al proyecto.
 
 ## Índice
-
 
 1. [Anteproyecto](./doc/1_Anteproyecto.md)
 2. [Análise](./doc/2_Analise.md)
