@@ -7,6 +7,7 @@ const bcrypt = require('bcrypt');
 const UsuarioSchema = new mongoose.Schema({
   nombre: { type: String, required: true }, // Nombre del usuario
   email: { type: String, required: true, unique: true }, // Email del usuario
+  avatarUrl: { type: String, default: '/img/avatar/default.png' }, // URL del avatar del usuario
   contraseña: { type: String, required: true }, // Contraseña del usuario
   fechaRegistro: { type: Date, default: Date.now }, // Fecha de registro
   progresoHistoria: {

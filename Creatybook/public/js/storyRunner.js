@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // Crear la instancia de Ink.js
       const story = new inkjs.Story(storyContent);
 
-      if (savedState) {
+      if (savedState && !("null" == savedState || '\"\"' == savedState)) {
         story.state.LoadJson(savedState.slice(1, -1));
       }
 

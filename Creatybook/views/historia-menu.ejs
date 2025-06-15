@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title><%= titulo %></title>
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    crossorigin="anonymous"
+  />
+</head>
+<body>
+  <%- include('partials/header') %>
+
+  <main class="container">
+    <h2 class="section-title">
+      <i class="fa-solid fa-scroll"></i> Selecciona tu historia
+    </h2>
+
+    <section class="carousel">
+      <button class="carousel-arrow prev" aria-label="Anterior">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+
+  <div class="carousel-viewport">
+    <div class="carousel-track">
+      <% stories.forEach((story,i) => { %>
+        <div class="carousel-item <%= i===0?'active':'' %>" data-index="<%= i %>">
+          <img src="<%= story.imageUrl %>" alt="<%= story.title %>">
+          <div class="item-content">
+            <h3><%= story.title %></h3>
+            <p><%= story.description %></p>
+            <div class="card-buttons">
+              <a href="/historia"     class="btn-menu">Continuar partida</a>
+              <a href="/api/reset-new" class="btn-menu btn-secondary">Nueva partida</a>
+            </div>
+          </div>
+        </div>
+      <% }) %>
+    </div>
+  </div>
+
+      <button class="carousel-arrow next" aria-label="Siguiente">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </section>
+  </main>
+
+  <%- include('partials/footer') %>
+  <script defer src="/js/storyCarrusel.js"></script>
+</body>
+</html>

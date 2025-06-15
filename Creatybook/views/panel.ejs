@@ -1,0 +1,137 @@
+<!-- views/panel.ejs -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title><%= titulo %></title>
+  <link rel="stylesheet" href="/css/reset.css" />
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    crossorigin="anonymous"
+  />
+</head>
+<body>
+  <%- include('partials/header') %>
+
+  <main class="container user-panel">
+    <h2 class="section-title">
+      <i class="fa-solid fa-user-cog"></i> <%= titulo %>
+    </h2>
+
+<section class="profile-section">
+  <div class="profile-container">
+    <!-- AVATAR -->
+    <div class="profile-avatar">
+      <img
+        id="avatar-preview"
+        src="<%= user.avatarUrl || '/img/default-avatar.png' %>"
+        alt="Avatar de <%= user.nombre %>"
+      >
+    </div>
+
+    <!-- DATOS / FORMULARIO -->
+    <div class="profile-details">
+      <!-- MODO VISTA -->
+      <div id="profile-view" class="profile-card">
+        <h3><%= user.nombre %></h3>
+        <p><strong>Email:</strong> <%= user.email %></p>
+        <p><strong>Registrado:</strong>
+          <%= new Date(user.fechaRegistro).toLocaleDateString() %>
+        </p>
+        <button id="btn-edit" class="btn-menu">
+          <i class="fa-solid fa-pen"></i> Editar
+        </button>
+      </div>
+
+      <!-- MODO EDICIÓN -->
+      <form
+        id="profile-form"
+        class="profile-form hidden"
+        action="/api/update-perfil"
+        method="POST"
+        enctype="multipart/form-data"
+      >
+        <label>
+          Nombre
+          <input
+            type="text"
+            name="nombre"
+            value="<%= user.nombre %>"
+            required
+          >
+        </label>
+
+        <label>
+          Email
+          <input
+            type="email"
+            name="email"
+            value="<%= user.email %>"
+            required
+          >
+        </label>
+
+        <label class="file-upload">
+          Cambiar avatar
+          <input
+            id="avatar-input"
+            type="file"
+            name="avatar"
+            accept="image/*"
+          >
+        </label>
+
+        <div class="card-buttons">
+          <button type="button" id="btn-cancel" class="btn-secondary">
+            <i class="fa-solid fa-circle-xmark"></i> Cancelar
+          </button>
+          <button type="submit" class="btn-menu">
+            <i class="fa-solid fa-floppy-disk"></i> Guardar
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+  </main>
+
+  <%- include('partials/footer') %>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const view      = document.getElementById('profile-view');
+  const form      = document.getElementById('profile-form');
+  const btnEdit   = document.getElementById('btn-edit');
+  const btnCancel = document.getElementById('btn-cancel');
+  const fileInput = document.getElementById('avatar-input');
+  const fileName  = document.getElementById('file-name');
+  const avatarImg = document.getElementById('avatar-preview');
+
+  // Toggle vista/edición
+  btnEdit.addEventListener('click', () => {
+    view.classList.add('hidden');
+    form.classList.remove('hidden');
+  });
+  btnCancel.addEventListener('click', () => {
+    form.classList.add('hidden');
+    view.classList.remove('hidden');
+  });
+
+  // Previsualizar nombre de fichero y avatar en cliente
+  fileInput.addEventListener('change', () => {
+    const file = fileInput.files[0];
+    if (file) {
+      // Mostrar preview
+      const reader = new FileReader();
+      reader.onload = e => avatarImg.src = e.target.result;
+      reader.readAsDataURL(file);
+    } else {
+      avatarImg.src = '<%= user.avatarUrl || "/img/default-avatar.png" %>';
+    }
+  });
+});
+</script>
+</body>
+</html>
