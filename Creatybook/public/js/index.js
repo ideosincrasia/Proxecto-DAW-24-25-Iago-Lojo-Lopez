@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 document.addEventListener('DOMContentLoaded', () => {
   // Obtener la pista del carrusel
-  const track      = document.querySelector('.carousel-track');
+  const track      = document.querySelector('.carousel-track-container');
   // Obtener todas las diapositivas
   const slides     = Array.from(track.children);
   // Obtener botones de navegación

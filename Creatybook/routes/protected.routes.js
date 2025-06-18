@@ -36,9 +36,9 @@ module.exports = router;
 
 router.get('/historia-menu', (req, res) => {
 const stories = [
-  { title: 'Historia 1', description: 'Embárcate en un viaje épico…', imageUrl: '/img/album/story1.jpg' },
-  { title: 'Historia 2', description: 'Descubre las ruinas olvidadas…', imageUrl: '/img/album/story2.jpg' },
-  { title: 'Historia 3', description: 'Enfréntate a enigmas submarinos…', imageUrl: '/img/album/story3.jpg' },
+  { title: 'Historia 1', description: 'Embárcate en un viaje épico…', imageUrl: '/img/caratula.jpg' },
+  { title: 'Historia 2', description: 'Descubre las ruinas olvidadas…', imageUrl: '/img/caratula.jpg' },
+  { title: 'Historia 3', description: 'Enfréntate a enigmas submarinos…', imageUrl: '/img/caratula.jpg' },
 ];
 res.render('historia-menu', { titulo: 'Tu Aventura', stories });
 

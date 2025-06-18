@@ -764,7 +764,7 @@ body {
   line-height: 1.4;
 }
 
-/* Botones al fondo */
+/* Botones fondo */
 .card-buttons {
   display: flex;
   gap: 0.75rem;
@@ -796,6 +796,10 @@ body {
   box-shadow: 0 12px 32px rgba(0,0,0,0.25);
 }
 
+.carousel-item img {
+  object-fit: cover;
+}
+
 /* Flechas a los lados siguen igual */
 .simple-carousel {
   display: flex;
@@ -818,7 +822,7 @@ body {
 }
 
 /* Responsive */
-@media (max-width: 480px) {
+@media (max-width: 720px) {
   .carousel-viewport {
     width: 90vw;
     height: 60vh;
